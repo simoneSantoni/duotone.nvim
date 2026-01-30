@@ -1,12 +1,12 @@
--- Base2Tone Field Purple colorscheme for Neovim
--- Monochromatic purple variation of base2tone-field
+-- Duotone Purple colorscheme for Neovim
+-- Monochromatic purple variation of duotone
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "base2tone-field-purple"
+vim.g.colors_name = "duotone-purple"
 vim.o.termguicolors = true
 vim.o.background = "dark"
 

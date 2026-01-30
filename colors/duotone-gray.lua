@@ -1,12 +1,12 @@
--- Base2Tone Field Gray colorscheme for Neovim
--- Monochromatic gray variation of base2tone-field
+-- Duotone Gray colorscheme for Neovim
+-- Monochromatic gray variation of duotone
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "base2tone-field-gray"
+vim.g.colors_name = "duotone-gray"
 vim.o.termguicolors = true
 vim.o.background = "dark"
 

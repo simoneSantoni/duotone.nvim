@@ -1,12 +1,12 @@
--- Base2Tone Field Magenta colorscheme for Neovim
--- Monochromatic magenta variation of base2tone-field
+-- Duotone Magenta colorscheme for Neovim
+-- Monochromatic magenta variation of duotone
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "base2tone-field-magenta"
+vim.g.colors_name = "duotone-magenta"
 vim.o.termguicolors = true
 vim.o.background = "dark"
 

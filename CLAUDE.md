@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-teal.nvim is a Neovim colorscheme plugin providing teal-based dark themes with multiple accent color variations. Written in pure Lua with no build steps or dependencies.
+duotone.nvim is a Neovim colorscheme plugin providing duotone dark themes with multiple accent color variations. Written in pure Lua with no build steps or dependencies.
 
 ## Architecture
 
@@ -19,13 +19,13 @@ Each colorscheme file in `colors/` follows this structure:
 ### Accent Variations
 
 All variants share the same dark background (`#18201e`) and structure but use different accent colors:
-- `base2tone-field` - Teal/turquoise primary
-- `base2tone-field-blue` - Blue primary
-- `base2tone-field-gray` - Gray monochromatic
-- `base2tone-field-magenta` - Magenta primary
-- `base2tone-field-orange` - Orange primary
-- `base2tone-field-purple` - Purple primary
-- `base2tone-field-yellow` - Yellow primary
+- `duotone` - Teal/turquoise primary
+- `duotone-blue` - Blue primary
+- `duotone-gray` - Gray monochromatic
+- `duotone-magenta` - Magenta primary
+- `duotone-orange` - Orange primary
+- `duotone-purple` - Purple primary
+- `duotone-yellow` - Yellow primary
 
 ### Adding New Accent Variations
 

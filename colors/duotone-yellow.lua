@@ -1,12 +1,12 @@
--- Base2Tone Field Yellow colorscheme for Neovim
--- Monochromatic yellow variation of base2tone-field
+-- Duotone Yellow colorscheme for Neovim
+-- Monochromatic yellow variation of duotone
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "base2tone-field-yellow"
+vim.g.colors_name = "duotone-yellow"
 vim.o.termguicolors = true
 vim.o.background = "dark"
 

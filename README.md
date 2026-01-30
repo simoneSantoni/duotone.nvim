@@ -1,6 +1,6 @@
-# teal.nvim
+# duotone.nvim
 
-Teal-based dark colorschemes for Neovim with multiple accent color variations. Pure Lua, no dependencies.
+Duotone dark colorschemes for Neovim with multiple accent color variations. Pure Lua, no dependencies.
 
 ## Installation
 
@@ -8,11 +8,11 @@ Teal-based dark colorschemes for Neovim with multiple accent color variations. P
 
 ```lua
 {
-  "yourusername/teal.nvim",
+  "yourusername/duotone.nvim",
   lazy = false,
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("base2tone-field")
+    vim.cmd.colorscheme("duotone")
   end,
 }
 ```
@@ -21,9 +21,9 @@ Teal-based dark colorschemes for Neovim with multiple accent color variations. P
 
 ```lua
 use {
-  "yourusername/teal.nvim",
+  "yourusername/duotone.nvim",
   config = function()
-    vim.cmd.colorscheme("base2tone-field")
+    vim.cmd.colorscheme("duotone")
   end,
 }
 ```
@@ -34,13 +34,13 @@ All variants share a dark background (`#18201e`) with different accent colors:
 
 | Colorscheme | Primary Accent | Usage |
 |-------------|---------------|-------|
-| `base2tone-field` | Teal/Turquoise | `:colorscheme base2tone-field` |
-| `base2tone-field-blue` | Blue | `:colorscheme base2tone-field-blue` |
-| `base2tone-field-gray` | Gray (monochromatic) | `:colorscheme base2tone-field-gray` |
-| `base2tone-field-magenta` | Magenta | `:colorscheme base2tone-field-magenta` |
-| `base2tone-field-orange` | Orange | `:colorscheme base2tone-field-orange` |
-| `base2tone-field-purple` | Purple | `:colorscheme base2tone-field-purple` |
-| `base2tone-field-yellow` | Yellow | `:colorscheme base2tone-field-yellow` |
+| `duotone` | Teal/Turquoise | `:colorscheme duotone` |
+| `duotone-blue` | Blue | `:colorscheme duotone-blue` |
+| `duotone-gray` | Gray (monochromatic) | `:colorscheme duotone-gray` |
+| `duotone-magenta` | Magenta | `:colorscheme duotone-magenta` |
+| `duotone-orange` | Orange | `:colorscheme duotone-orange` |
+| `duotone-purple` | Purple | `:colorscheme duotone-purple` |
+| `duotone-yellow` | Yellow | `:colorscheme duotone-yellow` |
 
 ## Features
 
